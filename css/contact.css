@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;  
+    width: 100%;
+    height: 100vh;
+}
+
+li:hover{
+    background-color: rgb(18, 18, 40); 
+}
+button{
+    background-color: rgb(25, 25, 55); ;
+    border: none;
+    color: rgb(92, 92, 142);
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    margin-top: 427px;
+}
+button:hover{
+    background-color: rgb(18, 18, 40); 
+    cursor: pointer;
+}
+
+.trois{
+    width: 100%;
+    height: 150%;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(7, 7, 32);  
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{  
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 230%;
+    color: aliceblue;
+}
+
+.article{
+    background-color: rgb(7, 7, 32);  
+    width: 100%;
+    height: 70%;   
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+}
+input{
+    border: 3px solid rgb(32, 32, 66);
+    border-radius: 8px;
+    background-color: rgb(32, 32, 66);
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+input#email{
+    margin-bottom: 0px;
+}
+input::placeholder{
+    color: rgb(130, 156, 178);
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 17, 42);
+    height: 50%;
+    border: 50px solid rgb(17, 17, 42);
+    border-radius: 8px;
+}
+#emailError{
+    color: red;
+    font-family: sans-serif;
+    background-color: rgb(17, 17, 42);
+}
+.reussite{
+    color: rgb(9, 202, 9);
+    font-family: sans-serif;
+    align-self: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 120%;
+}
+.submit{
+    background-color: rgb(8, 166, 255);
+    color: aliceblue;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border: 3px solid rgb(17, 17, 42);
+}
+.submit:hover {
+    background-color: rgba(8, 164, 255, 0.73);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(7, 7, 32);  
+    height: 15%;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 146%;
+    background-color:rgb(25, 25, 55); 
+}
+.burger-icon{
+    cursor: pointer;
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(92, 92, 142);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu li{
+    padding: 15px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(92, 92, 142);
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 150%;
+    left: 55px;
+    background-color: rgb(25, 25, 55);
+    align-self: center;
+}
+
+.clair{
+    background-color: azure;
+    color: rgb(17, 17, 42);
+}
+
+.actu{
+    background-color: rgb(7, 7, 32);
+}
